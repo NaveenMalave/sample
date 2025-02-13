@@ -1,0 +1,66 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background: #36669a;
+}
+.container
+{
+   padding: 40px; 
+   border-radius: 30px;
+   border: 8px solid #beccdb;
+}
+.container .form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.container .form.signin{
+    display: flex;
+}
+.container .signinForm .form.signin
+{
+    display: flex;
+}
+.container .form p{
+    color: bisque;
+    font-weight: 500;
+    font-size: large;
+    
+}
+.container .form .inputBox
+{
+    position: relative;
+    width: 300px;
+}
+.container .form .inputBox input
+{
+    padding: 6px 4px;
+    border: none;
+    width: 50%;
+    background: #223243;
+    border: 1px solid rgba(0,0,0,0.1);
+    color: #fff;
+    font-size: 1em;
+    font-weight: 300;
+    border-radius: 5px;
+    transition: 0.5s;
+    outline: none;
+    
+}
+.container .form input{
+    padding: 2px ;
+    position: relative;
+    display: inline-table;
+}
+.nn{
+    color: aliceblue;
+    justify-content: center;
+    align-items: last baseline;
+    
+}
