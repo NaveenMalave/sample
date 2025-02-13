@@ -1,0 +1,103 @@
+<html>
+<head>
+</head>
+<style>
+    #rcorners2 {
+  border-radius: 25px;
+  border: 5px solid #73AD21;
+  padding: 30px; 
+  width: 400px;
+  height: 650px;  
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+h1 {
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+</style>
+<body>
+<h1> STUDENT DETAILS</h1>
+<form id="rcorners2" action="insert.php" method="post">
+<br>
+<label for="fname"  >FIRST NAME:</label>
+<input type='text'autofocus>
+</br>
+<br>
+<label for="mname"  >MIDDLE NAME:</label>
+<input type='text' name="mname" >
+</br>
+<br>
+<label for="lname"  >LAST NAME:</label>
+<input type='text'name="lname" >
+</br>
+<br>
+<input type="radio" name="radio gender" value"m">MALE<input type="radio" name="radio gender" value"f">FEMALE
+</br>
+<br>
+<label for="faname"  >FATHER NAME:</label>
+<input type='text' >
+</br>
+<br>
+<label for="mname"  >MOTHER NAME:</label>
+<input type='text' >
+</br>
+<br>
+<label for="dob"  >DATE OF BIRTH:</label>
+<input type='date' >
+</br>
+<br>
+<label for="email"  >EMAIL ID:</label>
+<input type='email' >
+</br>
+
+<br>
+<label for="pwd"  >PASSWORD:</label>
+<input type='password' >
+</br>
+<br>
+<label for="number"  >MOBILE NUMBER:</label>
+<input type='tel' >
+</br>
+<br>
+<label for="ADHAR"  >ADHAR NUMBER:</label>
+<input type='number' >
+</br>
+<br>
+<label for="colleges">SELECT COLLEGE:</label>
+<input list="browsers">
+  <datalist id="browsers">
+    <option value="SVEC,Tirupathi">
+    <option value="SVCE,Tirupathi">
+    <option value="BITS,kurnool">
+    <option value="AITS,Tirupathi">
+    <option value="SVCK,kadapa">
+    <option value="GPRE,kurnool">
+  </datalist>
+</br>
+<br>
+<input type='radio' name="qualification">B.TECH<input type='radio'name="qualification">M.TECH<input type='radio'name="qualification">MBA
+</br>
+<br>
+<input type='radio' name="course">MECH<input type='radio'name="course">EEE<input type='radio'name="course">ECE<input type='radio'name="course">CSE
+</br>
+<br>
+<label for="pic"  >UPLOAD PHOTO</label>
+<input type='file'  >
+</br>
+<br>
+<input type='submit' class="button" onclick="alert('submited successfully')" value='SUBMIT'></br>
+</br>
+</form>
+</body>
+</html>
